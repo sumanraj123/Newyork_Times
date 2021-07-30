@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .nav {
+    background-color: black;
+  }
+  
+  .nav-btn {
+    color: white;
+    font-size: 12px;
+    margin: 5px 0px;
+    font-weight: bold;
+    outline: white;
+  }
+  
+  .nav-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .nav-btn:focus {
+    background-color: white;
+    color: black;
+    outline: none;
+  }
+  
+  .info-body {
+    border: 2px solid black;
+    border-bottom: none;
+    border-top: none;
+  }
+  
+  .info-body .continueReading {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .info-body .card {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .info-body img {
+    object-fit: contain;
+    padding: 0px;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .info-body .section-card {
+    letter-spacing: 0.2rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
+  .info-body .titlecard {
+    letter-spacing: 0.1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .info-body .date-card {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  
+  .info-body .abstract-card {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
